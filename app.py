@@ -259,7 +259,7 @@ async def call_gemini(system_prompt: str, user_prompt: str, ticket_id: str) -> s
                     config={
                         "system_instruction": system_prompt,
                         "temperature": 0.1,        # low = consistent outputs
-                        "max_output_tokens": 1024,
+                        "max_output_tokens": 2048,
                     }
                 ),
                 timeout=25.0
