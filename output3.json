@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-004",
+    "relevant_transaction_id": "TXN-9401",
+    "evidence_verdict": "consistent",
+    "case_type": "refund_request",
+    "severity": "low",
+    "department": "customer_support",
+    "agent_summary": "The customer is requesting a refund of 500 BDT for a completed payment (TXN-9401) to a merchant, stating they changed their mind about the product.",
+    "recommended_next_action": "Advise the customer to contact the merchant directly for a refund as per our policy, as we cannot initiate refunds for completed merchant payments. Guide them on how to find merchant contact details.",
+    "customer_reply": "Dear customer, thank you for contacting us regarding your refund request for ticket ID TKT-004. We see a payment of 500 BDT (Transaction ID: TXN-9401) was successfully completed to the merchant. For refunds related to products or services purchased, please directly contact the merchant as per our policy. Any eligible amount will be processed through official channels once the merchant initiates the refund.",
+    "human_review_required": false,
+    "confidence": 0.9,
+    "reason_codes": [
+        "refund_request",
+        "transaction_matched",
+        "customer_support_route"
+    ]
+}

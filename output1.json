@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-001",
+    "relevant_transaction_id": "TXN-9101",
+    "evidence_verdict": "consistent",
+    "case_type": "wrong_transfer",
+    "severity": "high",
+    "department": "dispute_resolution",
+    "agent_summary": "The customer reported sending 5000 BDT to a wrong number around 2 PM today. Transaction ID TXN-9101 for 5000 BDT to +8801719876543 on 2026-04-14T14:08:22Z matches the complaint.",
+    "recommended_next_action": "Initiate a dispute resolution process for wrong_transfer, contacting the recipient of TXN-9101 to request a return of funds.",
+    "customer_reply": "Dear customer, Thank you for contacting us regarding your transfer issue. We have received your complaint (Ticket ID: TKT-001) about a 5000 BDT transfer made around 2 PM today. We have identified transaction ID TXN-9101 as the relevant transfer. Our team will now investigate this matter. Any eligible amount will be processed through official channels.",
+    "human_review_required": true,
+    "confidence": 0.9,
+    "reason_codes": [
+        "wrong_transfer_confirmed",
+        "transaction_match",
+        "consistent_evidence"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-006",
+    "relevant_transaction_id": null,
+    "evidence_verdict": "insufficient_data",
+    "case_type": "other",
+    "severity": "low",
+    "department": "customer_support",
+    "agent_summary": "The customer reported a general issue with their money but provided no specific details. No specific transaction can be linked to the complaint due to its vague nature.",
+    "recommended_next_action": "Contact the customer to gather more details about their concern, specifically asking for the amount, date, and type of transaction they are referring to.",
+    "customer_reply": "Dear customer, thank you for contacting us regarding your concern. To help us investigate, please provide more details about the issue you are facing, such as the specific amount, date, and type of transaction. Your ticket ID is TKT-006. We are here to help.",
+    "human_review_required": false,
+    "confidence": 0.45,
+    "reason_codes": [
+        "vague_complaint",
+        "insufficient_data",
+        "no_specific_transaction_match"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-007",
+    "relevant_transaction_id": "TXN-9701",
+    "evidence_verdict": "consistent",
+    "case_type": "agent_cash_in_issue",
+    "severity": "high",
+    "department": "agent_operations",
+    "agent_summary": "Customer reported a 2000 BDT cash-in via agent this morning (TXN-9701) which is currently pending and not reflected in their balance.",
+    "recommended_next_action": "Investigate the status of transaction TXN-9701 with Agent-318 and the core banking system to ensure the cash-in is processed or reversed appropriately. Update customer on resolution.",
+    "customer_reply": "প্রিয় গ্রাহক, আপনার টিকেট TKT-007 এর জন্য ধন্যবাদ। আমরা আপনার অভিযোগটি পেয়েছি যে আজ সকালে এজেন্টের মাধ্যমে ২০০০ টাকা ক্যাশ ইন করার পরেও আপনার ব্যালেন্সে টাকা আসেনি। আমরা আপনার TXN-9701 আইডি সহ এই লেনদেনটি পর্যালোচনা করছি। যেকোনো যোগ্য পরিমাণ অফিসিয়াল চ্যানেলের মাধ্যমে প্রক্রিয়া করা হবে। আমাদের সাথে থাকার জন্য ধন্যবাদ।",
+    "human_review_required": true,
+    "confidence": 0.9,
+    "reason_codes": [
+        "agent_cash_in_issue",
+        "transaction_pending",
+        "consistent_evidence"
+    ]
+}

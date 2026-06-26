@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-005",
+    "relevant_transaction_id": null,
+    "evidence_verdict": "insufficient_data",
+    "case_type": "phishing_or_social_engineering",
+    "severity": "critical",
+    "department": "fraud_risk",
+    "agent_summary": "Customer reported a phishing attempt where an impersonator claiming to be from bKash asked for their OTP, threatening account blockage. No transaction history is available.",
+    "recommended_next_action": "Reassure the customer that bKash never asks for PIN/OTP. Escalate to fraud_risk for investigation into the reported phishing attempt.",
+    "customer_reply": "Dear customer, thank you for reporting this incident (Ticket ID: TKT-005). Please be aware that bKash never asks for your PIN, OTP, or password. Do not share these details with anyone. We are investigating this report.",
+    "human_review_required": true,
+    "confidence": 0.8,
+    "reason_codes": [
+        "phishing_attempt_reported",
+        "no_transaction_history",
+        "critical_security_alert"
+    ]
+}

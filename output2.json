@@ -1,0 +1,18 @@
+{
+    "ticket_id": "TKT-002",
+    "relevant_transaction_id": "TXN-9202",
+    "evidence_verdict": "inconsistent",
+    "case_type": "wrong_transfer",
+    "severity": "medium",
+    "department": "dispute_resolution",
+    "agent_summary": "Customer claims to have mistakenly sent 2000 BDT to the wrong person (TXN-9202). However, transaction history shows prior transfers to the same recipient, making the 'wrong person' claim inconsistent with past behavior.",
+    "recommended_next_action": "Investigate the customer's claim of wrong recipient for TXN-9202, considering the history of prior transfers to the same number. Advise the customer on the dispute resolution process and potential next steps.",
+    "customer_reply": "Dear customer, thank you for contacting us regarding your transfer of 2000 BDT (Transaction ID: TXN-9202) which you believe was sent to the wrong person. We understand your concern and have initiated an investigation into Ticket ID: TKT-002. Please note that any eligible amount will be processed through official channels. We will keep you updated on the progress.",
+    "human_review_required": true,
+    "confidence": 0.75,
+    "reason_codes": [
+        "wrong_transfer_claim",
+        "prior_transfers_to_same_counterparty",
+        "inconsistent_evidence"
+    ]
+}
