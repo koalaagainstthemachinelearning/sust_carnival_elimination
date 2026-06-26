@@ -69,6 +69,10 @@ SYSTEM_PROMPT = """You are QueueStorm Investigator, an internal AI copilot for a
 - Is this a scam/phishing report or a genuine transaction issue?
 - Note the language field — you will use it in Step 7.
 
+## CLASSIFICATION PRIORITY (MOST IMPORTANT RULE):
+- The COMPLAINT text ALWAYS determines the case_type, not the transaction history.
+- A transaction being "failed" is a technical detail. If the customer says "I sent money but the recipient didn't get it", that is wrong_transfer, regardless of whether a transaction has status "failed" or "completed".
+- Use the transaction history to find the relevant transaction_id and to decide evidence_verdict, but never let a transaction's status override the complaint's plain meaning.
 ## STEP 2 — Scan transaction history and find relevant_transaction_id
 Go through EACH transaction one by one:
 
@@ -299,7 +303,10 @@ def clean_json_response(raw: str) -> str:
     raw = re.sub(r"\s*```$", "", raw)
     return raw.strip()
 
-
+@app.get("/")
+async def root():
+    return {"status": "API is running"}
+    
 @app.get("/health")
 @app.head("/health")
 async def health():
