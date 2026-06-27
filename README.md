@@ -74,7 +74,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 
 ## Live Endpoints
 
-- **Base URL:** `https://sust-carnival-elimination.onrender.com`
+- **Base URL:** `https://sust-carnival-elimination.onrender.com/docs`
 - **Health Check:** `GET /health` → `{"status": "ok"}`
 - **Analysis:** `POST /analyze-ticket` with JSON body per problem statement schema
 
